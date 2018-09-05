@@ -60,17 +60,20 @@ console.log(income_bt, tidx)
     render() {
         const itemLayout = {
             labelCol: {
-                span: 2,
+                span: 8,
+                sm: {span: 2},
             },
             wrapperCol: {
-                span: 3,
+                sm: {span: 3},
+                span: 12,
             }
         }
 
         const itemLayoutnl = {
             wrapperCol: {
-                span: 3,
-                offset: 2
+                span: 8,
+                offset: 12,
+                sm: {span: 2, offset: 3}
             }
         }
 
