@@ -45,7 +45,7 @@ class Tax extends React.Component {
 console.log(income_bt, tidx)
                         income = income_bt * (1 - tax_rates[tidx][1]/100) + tax_rates[tidx][2] +qizheng
                     } else {
-                        income = income_bt
+                        income = income_bt + qizheng
                     }
                     this.setState({
                         income
